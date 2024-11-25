@@ -1,4 +1,4 @@
-# FHIRKit Client
+# FHIRKit Client forked version using node-fetch v2
 [![npm version](https://badge.fury.io/js/fhir-kit-client.svg)](https://badge.fury.io/js/fhir-kit-client)
 [![Build Status](https://github.com/Vermonster/fhir-kit-client/actions/workflows/node.js.yml/badge.svg)](https://github.com/Vermonster/fhir-kit-client/actions/workflows/node.js.yml)
 [![Coverage Status](https://coveralls.io/repos/github/Vermonster/fhir-kit-client/badge.svg?branch=master)](https://coveralls.io/github/Vermonster/fhir-kit-client?branch=master)
