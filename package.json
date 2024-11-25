@@ -16,7 +16,7 @@
   "scripts": {
     "docs": "rm -rf ./docs && jsdoc --configure .jsdoc.json",
     "lint": "eslint .",
-    "test": "NODE_OPTIONS=--no-experimental-fetch mocha test --reporter spec && npx tsc --noEmit test/*.ts"
+    "test": "mocha test --reporter spec && npx tsc --noEmit test/*.ts"
   },
   "author": "Vermonster",
   "license": "MIT",
@@ -37,7 +37,7 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-import": "^2.24.2",
-    "jsdoc": "^3.6.11",
+    "jsdoc": "^4.0.4",
     "minami": "^1.2.3",
     "mocha": "^9.2.1",
     "mocha-lcov-reporter": "^1.3.0",
@@ -46,12 +46,12 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "node-abort-controller": "^3.0.1",
     "agentkeepalive": "^4.2.1",
-    "cross-fetch": "^3.1.5",
     "debug": "^4.3.3",
     "es6-promise": "^4.2.4",
     "json-stringify-safe": "^5.0.1",
+    "node-abort-controller": "^3.0.1",
+    "node-fetch": "^2.7.0",
     "query-string": "^7.1.1"
   },
   "nyc": {
